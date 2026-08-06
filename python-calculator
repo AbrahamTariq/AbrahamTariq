@@ -1,0 +1,91 @@
+def intro():
+    print("------Welcome to my calculator-------")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Power")
+    print("6. Exit")
+
+
+def get_number(choice):
+    while True:
+        try:
+            if choice == 5:
+                a = float(input("Enter the number: "))
+                return a, None
+            else:
+                a = float(input("Enter the first number: "))
+                b = float(input("Enter the second number: "))
+                return a, b
+        except ValueError:
+            print("Invalid format! Please enter a valid number.")
+
+
+def add_number(a, b):
+    result = a + b
+    print(f"The sum of {a} and {b} is {result}")
+    return result
+
+
+def sub_number(a, b):
+    result = a - b
+    print(f"The subtraction of {a} and {b} is {result}")
+    return result
+
+
+def product_number(a, b):
+    result = a * b
+    print(f"The product of {a} and {b} is {result}")
+    return result
+
+
+def div_number(a, b):
+    if b == 0:
+        print("Error: Cannot divide by zero!")
+        return None
+    result = a / b
+    print(f"The division of {a} and {b} is {result}")
+    return result
+
+
+def power_number(a):
+    result = a ** 2
+    print(f"The square of {a} is {result}")
+    return result
+
+
+def main():
+    while True:
+        intro()
+        try:
+            choice = int(input("Enter your choice: "))
+        except ValueError:
+            print("Invalid choice! Please enter a number.")
+            continue
+
+        if choice == 1:
+            a, b = get_number(choice)
+            add_number(a, b)
+        elif choice == 2:
+            a, b = get_number(choice)
+            sub_number(a, b)
+        elif choice == 3:
+            a, b = get_number(choice)
+            product_number(a, b)
+        elif choice == 4:
+            a, b = get_number(choice)
+            div_number(a, b)
+        elif choice == 5:
+            a, _ = get_number(choice)
+            power_number(a)
+        elif choice == 6:
+            print("Leaving..........Goodbye!")
+            break
+        else:
+            print("Invalid choice! Please select 1-6.")
+
+
+if __name__ == "__main__":
+    main()
+
