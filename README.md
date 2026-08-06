@@ -1,16 +1,25 @@
 ## Hi there 👋
 
-<!--
-**AbrahamTariq/AbrahamTariq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **Abraham Tariq**, a Python backend developer focused on building clean, functional, and well-structured applications.
 
-Here are some ideas to get you started:
+### What I Do
+- 🐍 **Python** is my main language — I love building CLI tools, backend systems, and automation scripts
+- 🔧 Currently getting back into development after a break and rebuilding my skills
+- 🌱 Learning and growing every day — working on real projects to sharpen my craft
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Current Projects
+- **[Python CLI Calculator](https://github.com/AbrahamTariq/python-calculator)** — A command-line calculator with input validation and error handling
+- *More projects coming soon...*
+
+### Tech Stack
+- **Language:** Python
+- **Tools:** VS Code, Git, GitHub
+- **Learning:** Backend frameworks, API development, database integration
+
+### Let's Connect
+- 📧 [abrahamtariq0@gmail.com](mailto:abrahamtariq0@gmail.com)
+- 🌐 Portfolio website — *coming soon*
+
+---
+
+⭐ Feel free to check out my repositories below!
