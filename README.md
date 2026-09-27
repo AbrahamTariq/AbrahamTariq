@@ -13,8 +13,8 @@ I'm **Abraham Tariq**, a Python backend developer focused on building clean, fun
 
 ### Tech Stack
 - **Language:** Python
-- **Tools:** VS Code, Git, GitHub
-- **Learning:** Backend frameworks, API development, database integration
+- **Tools:** VS Code, Git, GitHub, Antigravity, Base44, Replit
+- **Learning:** Backend frameworks, API development, database integration, GameModding
 
 ### Let's Connect
 - 📧 [abrahamtariq0@gmail.com](mailto:abrahamtariq0@gmail.com)
